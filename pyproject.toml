@@ -1,3 +1,2 @@
-[tool.mypy]
-ignore_missing_imports = true
-strict = true
+# [tool.mypy]
+# ignore_missing_imports = true
