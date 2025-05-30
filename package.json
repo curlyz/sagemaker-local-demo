@@ -1,0 +1,25 @@
+{
+  "name": "fraud-louvain-local",
+  "version": "0.1.0",
+  "description": "Local pipeline for credit card fraud detection using Louvain community detection with Python, FastAPI, and SageMaker local.",
+  "scripts": {
+    "lint": "mypy .",
+    "typecheck": "mypy .",
+    "train": "AWS_PROFILE=curlyz .venv/bin/python run_local_training.py",
+    "serve": ".venv/bin/python serve.py",
+    "test": "sh test.sh",
+    "start": "npm run serve",
+    "build": "npm run test"
+  },
+  "keywords": [
+    "fraud",
+    "louvain",
+    "sagemaker",
+    "fastapi",
+    "python",
+    "community-detection"
+  ],
+  "author": "tpbank-ai <ai@tpbank.com>",
+  "license": "MIT",
+  "packageManager": "yarn@4.9.1+sha512.f95ce356460e05be48d66401c1ae64ef84d163dd689964962c6888a9810865e39097a5e9de748876c2e0bf89b232d583c33982773e9903ae7a76257270986538"
+}
